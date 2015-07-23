@@ -11,6 +11,18 @@
                 {
                     "title": "Дата рождения:",
                     "content": "29.11.1990"
+                },
+                {
+                    "title": "E-Mail:",
+                    "content": "\\href{mailto:reximkut@gmail.com}{reximkut@gmail.com}"
+                },
+                {
+                    "title": "LinkedIn:",
+                    "content": "\\url{http://ru.linkedin.com/pub/alexey-kutepov/92/45a/66b}"
+                },
+                {
+                    "title": "GitHub:",
+                    "content": "\\url{https://github.com/rexim}"
                 }
             ]
         },
@@ -19,7 +31,7 @@
             "entries": [
                 {
                     "title": "2009--2013",
-                    "content": "Сибирский государственный индустриальный университет --- Новокузнецк"
+                    "content": "Сибирский государственный индустриальный университет --- Новокузнецк:"
                 }
             ]
         },
