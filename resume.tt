@@ -16,11 +16,13 @@
 \begin{document}
 \begin{cv}{[% title %]}
 [% FOR section IN sections %]
+  [% IF section.entries.size %]
   \begin{cvlist}{[% section.title %]}
-  [% FOR entry IN section.entries %]
+    [% FOR entry IN section.entries %]
   \item[[% entry.title %]] [% entry.content %]
-  [% END %]
+    [% END %]
   \end{cvlist}
+  [% END %]
 [% END %]
 \end{cv}
 \end{document}
