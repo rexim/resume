@@ -20,6 +20,13 @@
   \begin{cvlist}{[% section.title %]}
     [% FOR entry IN section.entries %]
   \item[[% entry.title %]] [% entry.content %]
+      [% IF entry.subentries.size  %]
+    \begin{itemize}
+        [% FOR subentry IN entry.subentries %]
+    \item [% subentry.content %]
+        [% END %]
+    \end{itemize}
+      [% END %]
     [% END %]
   \end{cvlist}
   [% END %]
