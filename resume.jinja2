@@ -14,23 +14,23 @@
 \newcommand*{\ac}[1]{\mbox{#1}}
 \tolerance=600
 \begin{document}
-\begin{cv}{[% title %]}
-[% FOR section IN sections %]
-  [% IF section.entries.size %]
-  \begin{cvlist}{[% section.title %]}
-    [% FOR entry IN section.entries %]
-  \item[[% entry.title %]] [% entry.content %]
-      [% IF entry.subentries.size  %]
+\begin{cv}{<<resume.title>>}
+<% for section in resume.sections %>
+  <% if section.entries %>
+  \begin{cvlist}{<<section.title>>}
+    <% for entry in section.entries %>
+  \item[<<entry.title>>] <<entry.content>>
+      <% if entry.subentries %>
     \begin{itemize}
-        [% FOR subentry IN entry.subentries %]
-    \item [% subentry.content %]
-        [% END %]
+        <% for subentry in entry.subentries %>
+    \item <<subentry.content>>
+        <% endfor %>
     \end{itemize}
-      [% END %]
-    [% END %]
+      <% endif %>
+    <% endfor %>
   \end{cvlist}
-  [% END %]
-[% END %]
+  <% endif %>
+<% endfor %>
 \end{cv}
 \end{document}
 \endinput
