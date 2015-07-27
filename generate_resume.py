@@ -30,6 +30,19 @@ def filter_by_tags(node, tags):
     else:
         return node
 
+def render(node):
+    if type(node) is dict:
+        if node.has_key('template'):
+            rendered_node = dict((k, render(v)) for k, v in node.iteritems())
+            template = env.get_template(node['template'] + '.jinja2')
+            return template.render(node = rendered_node)
+        else:
+            raise SyntaxError("template is not specified")
+    elif type(node) is list:
+        return [render(v) for v in node]
+    else:
+        return node
+
 if __name__ == "__main__":
     with open('resume.json') as resume_json_file:
         resume = filter_by_tags(json.load(resume_json_file), sys.argv[1:])
