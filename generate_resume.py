@@ -13,7 +13,7 @@ env = Environment(
     variable_end_string='>>',
     comment_start_string='<#',
     comment_end_string='#>',
-    loader = PackageLoader(__name__, '')
+    loader = PackageLoader(__name__, 'templates')
 )
 
 def match_tags(tags, filter_tags):
