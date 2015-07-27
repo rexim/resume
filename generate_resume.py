@@ -1,7 +1,7 @@
 import codecs
 import locale
 import sys
-import json
+import yaml
 from jinja2 import Environment, PackageLoader, Template
 
 sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
@@ -44,6 +44,6 @@ def render(node):
         return node
 
 if __name__ == "__main__":
-    with open('resume.json') as resume_json_file:
-        resume = filter_by_tags(json.load(resume_json_file), sys.argv[1:])
+    with open('resume.yaml') as resume_file:
+        resume = filter_by_tags(yaml.load(resume_file), sys.argv[1:])
         print render(resume)
