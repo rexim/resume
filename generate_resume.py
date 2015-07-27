@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import codecs
 import locale
 import sys
@@ -21,19 +19,19 @@ env = Environment(
 def match_tags(tags, filter_tags):
     return [t for t in filter_tags if t in tags] == filter_tags
 
-def filter_entries_by_tags(entries, tags):
-    return [entry for entry in entries if not entry.has_key('tags') or match_tags(entry['tags'], tags)]
+def is_filtered(node, tags):
+    return type(node) is dict and node.has_key('tags') and not match_tags(node['tags'], tags)
 
-def filter_sections_by_tags(sections, tags):
-    for section in sections:
-        section['entries'] = filter_entries_by_tags(section['entries'], tags)
-
-def filter_resume_by_tags(resume, tags):
-    filter_sections_by_tags(resume['sections'], tags)
+def filter_by_tags(node, tags):
+    if type(node) is dict:
+        return dict((k, filter_by_tags(v, tags)) for k, v in node.iteritems() if not is_filtered(v, tags))
+    elif type(node) is list:
+        return [filter_by_tags(v, tags) for v in node if not is_filtered(v, tags)]
+    else:
+        return node
 
 if __name__ == "__main__":
     with open('resume.json') as resume_json_file:
-        resume = json.load(resume_json_file)
-        filter_resume_by_tags(resume, sys.argv[1:])
+        resume = filter_by_tags(json.load(resume_json_file), sys.argv[1:])
         resume_template = env.get_template('resume.jinja2')
         print resume_template.render(resume=resume)
