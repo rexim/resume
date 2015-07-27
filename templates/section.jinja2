@@ -1,0 +1,7 @@
+<% if node.entries %>
+  \begin{cvlist}{<<node.title>>}
+  <% for entry in node.entries %>
+  <<entry>>
+  <% endfor %>
+  \end{cvlist}
+<% endif %>

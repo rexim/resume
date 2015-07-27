@@ -1,0 +1,8 @@
+\item[<<node.title>>] <<node.content>>
+<% if node.subentries %>
+\begin{itemize}
+  <% for subentry in node.subentries %>
+  <<subentry>>
+  <% endfor %>
+\end{itemize}
+<% endif %>
