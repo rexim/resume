@@ -46,5 +46,4 @@ def render(node):
 if __name__ == "__main__":
     with open('resume.json') as resume_json_file:
         resume = filter_by_tags(json.load(resume_json_file), sys.argv[1:])
-        resume_template = env.get_template('resume.jinja2')
-        print resume_template.render(resume=resume)
+        print render(resume)

@@ -14,22 +14,9 @@
 \newcommand*{\ac}[1]{\mbox{#1}}
 \tolerance=600
 \begin{document}
-\begin{cv}{<<resume.title>>}
-<% for section in resume.sections %>
-  <% if section.entries %>
-  \begin{cvlist}{<<section.title>>}
-    <% for entry in section.entries %>
-  \item[<<entry.title>>] <<entry.content>>
-      <% if entry.subentries %>
-    \begin{itemize}
-        <% for subentry in entry.subentries %>
-    \item <<subentry.content>>
-        <% endfor %>
-    \end{itemize}
-      <% endif %>
-    <% endfor %>
-  \end{cvlist}
-  <% endif %>
+\begin{cv}{<<node.title>>}
+<% for section in node.sections %>
+  <<section>>
 <% endfor %>
 \end{cv}
 \end{document}

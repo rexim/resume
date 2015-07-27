@@ -1,4 +1,4 @@
-resume.pdf: resume.tex Makefile
+resume.pdf: resume.tex generate_resume.py Makefile
 	pdflatex resume.tex
 
 resume.tex: resume.json resume.jinja2 generate_resume.py Makefile
