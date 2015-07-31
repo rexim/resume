@@ -2,7 +2,7 @@ resume.pdf: resume.tex generate_resume.py Makefile
 	pdflatex resume.tex
 
 resume.tex: resume.yaml templates/*.jinja2 generate_resume.py Makefile
-	python ./generate_resume.py java > resume.tex
+	python ./generate_resume.py > resume.tex
 
 .PHONY: test
 

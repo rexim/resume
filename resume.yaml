@@ -2,7 +2,7 @@ template: "resume"
 title: "Резюме"
 sections: 
   - template: "section"
-    title: "Персональная информация khooy"
+    title: "Персональная информация"
     entries: 
       - template: "entry"
         title: "ФИО:"
@@ -33,18 +33,65 @@ sections:
   - template: "section"
     title: "Опыт работы"
     entries: 
-      - template: "entry"
+      - template: "job-entry"
         title: "04.2014–сейчас"
         content: "ООО “Ксоред” — Software Engineer — Новосибирск"
         tags: ["java", "eclipse", "spring", "hibernate", "c++"]
-      - template: "entry"
+        projects:
+          - template: "project"
+            title: "Проект Spirent iTest"
+            responsibilities:
+              - "Технологии: Java, Eclipse RCP, C++, Tcl, JavaScript, etc (их довольно много, это только основные)"
+              - "Обязанности: багфиксинг, реализация нового функционала, поддержка пользователей"
+          - template: "project"
+            title: "Проект Cisco Prime Infrastructure"
+            responsibilities:
+              - "Технологии: JavaEE, Spring, Hibernate, Dojo"
+              - "Обязанности: в основном багфиксинг"
+      - template: "job-entry"
         title: "02.2013–04.2014"
         content: "ООО “Информационные системы” — Программист C++ — Новокузнецк"
         tags: ["c++", "qt", "postgresql", "sqlite", "scala"]
+        projects:
+          - template: "project"
+            title: "Проект десктопная версия ГИС 4geo:"
+            responsibilities:
+              - "Технологии: С++11, Qt4, OpenGL, SQLite"
+              - "Обязанности: багфиксинг, реализация нового функционала, разработка UI"
+          - template: "project"
+            title: "Проект инфраструктуры ГИС 4geo:"
+            responsibilities:
+              - "Технологии: Scala, PostgreSQL, SQLite"
+              - "Обязанности: релизация компоненты конвертации схемы путей из онлайновой базы в схему оффлайновой для десктопной версии ГИС 4geo"
       - template: "entry"
         title: "07.2011–08.2011"
         content: "ЗАО “Intel A/O” — Интерн Летней Школы — Новосибирск"
         tags: ["c++"]
+        subentries:
+          - template: "subentry"
+            content: "определял узкие места в Open Source проектах;"
+          - template: "subentry"
+            content: "модифицировал код узких мест для последующей векторизации и параллелизации;"
+          - template: "subentry"
+            content: "писал тесты для проверки корректности модифицированного кода;"
+  - template: "section"
+    title: "Технические навыки"
+    entries:
+      - template: "entry"
+        title: "языки"
+        content: "Могу одинаково эффективно разрабатывать с использованием как объектно-ориентированного, так и функционального подходов. Из конкретных языков в последнее время использую Java, C++, Scala, JavaScript. Что-то для своих нужд обычно пишу на Haskell и Emacs Lisp. Примеры моего кода: \\href{https://github.com/rexim}{GitHub}"
+      - template: "entry"
+        title: "SCM"
+        content: "Приходилось работать с самыми различными системами контроля версий. В основном это были git, svn и hg. Предпочтение отдаю git."
+      - template: "entry"
+        title: "Build systems"
+        content: "Приходилось работать с cmake, qmake, maven, sbt, gradle. Так же доводилось писать и голые Makefile’ы — в основном под GNU make."
+      - template: "entry"
+        title: "OS"
+        content: "В какой операционной системе работать и под какую разрабатывать, для меня особого значения не имеет. В последнее время использую Windows 8 и Debian-based дистрибутивы Linux."
+      - template: "entry"
+        title: "Сертификаты"
+        content: "Intel Parallel Programming Professional — Intel R Compilers — Basic Level (\\# IPPP-2-IC-003)"
   - template: "section"
     title: "Мероприятия"
     entries: 
@@ -71,3 +118,12 @@ sections:
       - template: "entry"
         title: "2010-2013"
         content: "Ежегодно участвовал в региональной олимпиаде по программированию проводимой СибГИУ"
+  - template: "section"
+    title: "Персональные навыки"
+    entries:
+      - template: "entry"
+        title: "Языки"
+        content: "Русский — родной язык\\\\Английский — Upper Intermediate"
+      - template: "entry"
+        title: "Соц. навыки"
+        content: "Коммуникабельный\\\\Способен работать в команде или один"

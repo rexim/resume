@@ -1,0 +1,8 @@
+<<node.title>>
+<% if node.responsibilities %>
+\begin{itemize}
+<% for responsibility in node.responsibilities %>
+\item <<responsibility>>
+<% endfor %>
+\end{itemize}
+<% endif %> 
