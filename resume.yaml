@@ -49,7 +49,7 @@ sections:
           - template: "project"
             title: "Project Cisco Prime Infrastructure"
             responsibilities:
-              - "Description: Cisco Prime ™ Infrastructure provides a single integrated solution for complete lifecycle management of Cisco routers, switches, and wireless devices, along with deep visibility into end-user connectivity and application performance."
+              - "Description: Cisco Prime Infrastructure provides a single integrated solution for complete lifecycle management of Cisco routers, switches, and wireless devices, along with deep visibility into end-user connectivity and application performance."
               - "Technologies: JavaEE, Spring, Hibernate, Dojo"
               - "Duties: bug fixing, new feature implementation"
           - template: "project"
@@ -86,7 +86,7 @@ sections:
     entries:
       - template: "entry"
         title: "languages"
-        content: "I'm familiar with object-oriented and functional paradigms pretty well and can use them both equally efficiently. Right now I usually develop with Java, C++, Scala, JavaScript. For my own projects or tasks I usually pick Haskell or Emacs Lisp. Some example of my code: \\href{https://github.com/rexim}{GitHub}"
+        content: "I'm familiar with object-oriented and functional paradigms pretty well and can use them both equally efficiently. Right now I usually develop with Java, C++, Scala, JavaScript. For my own projects or tasks I usually pick Haskell or Emacs Lisp. Some examples of my code: \\href{https://github.com/rexim}{GitHub}"
       - template: "entry"
         title: "SCM"
         content: "Most of the time I use git. But have experience with svn and hg."
