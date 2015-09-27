@@ -20,16 +20,18 @@ sections:
         title: "GitHub:"
         content: "\\url{https://github.com/rexim}"
   - template: "section"
-    title: "Образование"
+    title: "Education"
     entries: 
       - template: "entry"
         title: "2009--2013"
-        content: "Сибирский государственный индустриальный университет --- Новокузнецк:"
-        subentries: 
+        content: "Siberian State Industrial University --- Novokuznetsk:"
+        subentries:
           - template: "subentry"
-            content: "Институт информационных технологий и автоматизированных систем"
+            content: "Specialist degree"
           - template: "subentry"
-            content: "Специальность: Информационные системы и технологии"
+            content: "Institute of Information Technologies and Automated Systems"
+          - template: "subentry"
+            content: "Speciality: Information Systems and Technologies"
   - template: "section"
     title: "Опыт работы"
     entries: 
