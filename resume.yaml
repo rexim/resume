@@ -95,7 +95,7 @@ sections:
         content: "Have experince with cmake, qmake, maven, sbt, gradle. Can also write bare Makefiles."
       - template: "entry"
         title: "OS"
-        content: "It doesn't actually matter for me which operating system to use or develop for. Right now I usually stick with Windows 8 and Debian-based Linux distributions."
+        content: "It doesn't actually matter for me which operating system to use or develop for. Right now I usually stick with Windows 8/10 and NixOS Linux distributions."
       - template: "entry"
         title: "Certificates"
         content: "Intel Parallel Programming Professional — Intel Compilers — Basic Level (\\# IPPP-2-IC-003)"
