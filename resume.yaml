@@ -130,7 +130,7 @@ sections:
     entries:
       - template: "entry"
         title: "Languages"
-        content: "Russian — Native Speaker\\\\English — Upper Intermediate"
-      - template: "entry"
-        title: "Social skills"
-        content: "Communicative\\\\Can work alone or as a team member"
+        content: "Russian — Native\\\\English — Fluent"
+      # - template: "entry"
+      #   title: "Social skills"
+      #   content: "Communicative\\\\Can work alone or as a team member"
