@@ -34,7 +34,10 @@ sections:
             content: "Speciality: Information Systems and Technologies"
   - template: "section"
     title: "Work Experience"
-    entries: 
+    entries:
+      - template: "job-entry"
+        title: "Nov. 2016–Present"
+        content: "\\href{https://www.toptal.com/}{Toptal} — Software Engineer"
       - template: "job-entry"
         title: "Apr. 2014–Jun. 2016"
         content: "\\href{http://xored.com/}{Xored Software Inc.} — Software Engineer — Novosibirsk, Russia"
@@ -85,7 +88,7 @@ sections:
     title: "Technical skills"
     entries:
       - template: "entry"
-        title: "languages"
+        title: "Languages"
         content: "I'm familiar with object-oriented and functional paradigms pretty well and can use them both equally efficiently. Right now I usually develop with Java, C++, Scala, JavaScript. For my own projects or tasks I usually pick Haskell or Emacs Lisp. Some examples of my code: \\href{https://github.com/rexim}{GitHub}"
       - template: "entry"
         title: "SCM"
