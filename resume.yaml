@@ -24,7 +24,7 @@ sections:
     entries: 
       - template: "entry"
         title: "2009--2013"
-        content: "Siberian State Industrial University --- Novokuznetsk:"
+        content: "Siberian State Industrial University --- Novokuznetsk, Russia:"
         subentries:
           - template: "subentry"
             content: "Specialist degree"
@@ -37,7 +37,7 @@ sections:
     entries: 
       - template: "job-entry"
         title: "Apr. 2014–Jun. 2016"
-        content: "\\href{http://xored.com/}{Xored Software Inc.} — Software Engineer — Novosibirsk"
+        content: "\\href{http://xored.com/}{Xored Software Inc.} — Software Engineer — Novosibirsk, Russia"
         tags: ["java", "eclipse", "spring", "hibernate", "c++"]
         projects:
           - template: "project"
@@ -60,7 +60,7 @@ sections:
               - "Technologies: Java 6, Eclipse RCP, Apache Maven, etc."
       - template: "job-entry"
         title: "Feb. 2013-Apr. 2014"
-        content: "\\href{http://4geo.ru/}{4geo} — C++ Developer — Novokuznetsk"
+        content: "\\href{http://4geo.ru/}{4geo} — C++ Developer — Novokuznetsk, Russia"
         tags: ["c++", "qt", "postgresql", "sqlite", "scala"]
         projects:
           - template: "project"
@@ -76,7 +76,7 @@ sections:
               - "Duties: Developing a component for converting online database routes schema to offline database route schema of the 4geo GIS desktop application"
       - template: "entry"
         title: "Jul. 2011–Aug. 2011"
-        content: "Intel — Summer School Intern — Novosibirsk"
+        content: "Intel — Summer School Intern — Novosibirsk, Russia"
         tags: ["c++"]
         subentries:
           - template: "subentry"
@@ -107,21 +107,21 @@ sections:
         content: "Intel School:"
         subentries: 
           - template: "subentry"
-            content: "NSU-Intel Winter School 2010, Novosibirsk"
+            content: "NSU-Intel Winter School 2010, Novosibirsk, Russia"
           - template: "subentry"
-            content: "NSU-Intel Winter School 2011, Novosibirsk"
+            content: "NSU-Intel Winter School 2011, Novosibirsk, Russia"
           - template: "subentry"
-            content: "Intel Summer School 2011, Novosibirsk"
+            content: "Intel Summer School 2011, Novosibirsk, Russia"
       - template: "entry"
         title: "2008-2012"
         content: "ACM International Collegiate Programming Contest"
         subentries: 
           - template: "subentry"
-            content: "NEERC-2010, Barnual"
+            content: "NEERC-2010, Barnual, Russia"
           - template: "subentry"
-            content: "NEERC-2011, Barnual"
+            content: "NEERC-2011, Barnual, Russia"
           - template: "subentry"
-            content: "NEERC-2012, Barnual"
+            content: "NEERC-2012, Barnual, Russia"
   - template: "section"
     title: "Personal Skills"
     entries:
