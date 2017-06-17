@@ -35,6 +35,16 @@ sections:
   - template: "section"
     title: "Work Experience"
     entries:
+      - template: job-entry
+        title: Apr. 2017–Present
+        content: \href{https://2gis.ru/}{2GIS} — Software Engineer — Novosibirsk, Russia
+        projects:
+          - template: "project"
+            title: 2GIS Android App
+            responsibilities:
+              - "Description: 2GIS is a directory with a map and navigator. The application works without Internet connection — download the city database and use it on the plane, subway, or when in a roaming zone."
+              - "Technologies: C++14, Java, Qt 5.9, QML"
+              - "Duties: developing and maintaining \\href{https://play.google.com/store/apps/details?id=ru.dublgis.dgismobile&hl=en}{2GIS Android App} as the part of the development team"
       - template: "job-entry"
         title: "Nov. 2016–Present"
         content: "\\href{https://www.toptal.com/}{Toptal} — Software Engineer"
