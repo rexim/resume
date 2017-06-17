@@ -46,6 +46,16 @@ sections:
               - "Technologies: C++14, Java, Qt 5.9, QML"
               - "Duties: developing and maintaining \\href{https://play.google.com/store/apps/details?id=ru.dublgis.dgismobile&hl=en}{2GIS Android App} as the part of the development team"
       - template: "job-entry"
+        title: "Dec. 2016–Feb. 2017"
+        content: "\\href{https://www.restore.eu/en/homepage}{REstore} — Data Engineer — via \\href{https://www.toptal.com/}{Toptal}"
+        projects:
+          - template: "project"
+            title: "Data pipeline for \\href{https://www.elexon.co.uk/change/new-balancing-mechanism-reporting-service-bmrs/}{BMRS}"
+            responsibilities:
+              - "Description: Pipeline for data collection and consumption from \\href{https://www.elexon.co.uk/change/new-balancing-mechanism-reporting-service-bmrs/}{BMRS}"
+              - "Technologies: Scala, Play Framework, JAXB, Swagger, ActiveMQ"
+              - "Duties: Developed a custom build process with extensive code generation based on the schema of the collected data. Analyzed the behavior of the collected data and crafted ways to optimize the process of collection. Designed the back-end REST API."
+      - template: "job-entry"
         title: "Nov. 2016–Present"
         content: "\\href{https://www.toptal.com/}{Toptal} — Software Engineer"
       - template: "job-entry"
