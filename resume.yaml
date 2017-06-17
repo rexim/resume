@@ -44,19 +44,19 @@ sections:
         tags: ["java", "eclipse", "spring", "hibernate", "c++"]
         projects:
           - template: "project"
-            title: "Project Spirent iTest"
+            title: "Spirent iTest"
             responsibilities:
               - "Description: iTest is an integrated test authoring and execution solution built for testers, developers, and automation teams. It provides QA organizations with a unified approach for rapidly developing, automating, and maintaining test cases."
               - "Technologies: Java, Eclipse RCP, C++, Tcl, JavaScript"
               - "Duties: bug fixing, implementing new testing sessions, extending existing testing session, customer incidents investigation"
           - template: "project"
-            title: "Project Cisco Prime Infrastructure"
+            title: "Cisco Prime Infrastructure"
             responsibilities:
               - "Description: Cisco Prime Infrastructure provides a single integrated solution for complete lifecycle management of Cisco routers, switches, and wireless devices, along with deep visibility into end-user connectivity and application performance."
               - "Technologies: JavaEE, Spring, Hibernate, Dojo"
               - "Duties: bug fixing, new feature implementation"
           - template: "project"
-            title: "Project Cisco XMP SDK"
+            title: "Cisco XMP SDK"
             responsibilities:
               - "Description: An IDE based on Eclipse RCP"
               - "Duties: Implementing the extension for technology packages designed to decouple business units when delivering features as part of Prime Infrastructure. Developing Maven plugins, M2E extensions and EMF editors for development and packaging of technology packages."
@@ -67,13 +67,13 @@ sections:
         tags: ["c++", "qt", "postgresql", "sqlite", "scala"]
         projects:
           - template: "project"
-            title: "Project Desktop Application of 4geo GIS"
+            title: "Desktop Application of 4geo GIS"
             responsibilities:
               - "Description: 4geo is a detailed map of the cities of Siberian region, a catalog of organizations and a news portal"
               - "Technologies: С++11, Qt4, OpenGL, SQLite"
               - "Duties: bugfixing, new feature implementation, UI development"
           - template: "project"
-            title: "Project of 4geo GIS infrastructure"
+            title: "4geo GIS infrastructure"
             responsibilities:
               - "Technologies: Scala, PostgreSQL, SQLite"
               - "Duties: Developing a component for converting online database routes schema to offline database route schema of the 4geo GIS desktop application"
