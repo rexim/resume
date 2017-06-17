@@ -40,7 +40,7 @@ sections:
         content: \href{https://2gis.ru/}{2GIS} — Software Engineer — Novosibirsk, Russia
         projects:
           - template: "project"
-            title: 2GIS Android App
+            title: \href{https://play.google.com/store/apps/details?id=ru.dublgis.dgismobile&hl=en}{2GIS Android App}
             responsibilities:
               - "Description: 2GIS is a directory with a map and navigator. The application works without Internet connection — download the city database and use it on the plane, subway, or when in a roaming zone."
               - "Technologies: C++14, Java, Qt 5.9, QML"
@@ -64,7 +64,7 @@ sections:
         tags: ["java", "eclipse", "spring", "hibernate", "c++"]
         projects:
           - template: "project"
-            title: "Spirent iTest"
+            title: \href{https://www.spirent.com/Products/itest}{Spirent iTest}
             responsibilities:
               - "Description: iTest is an integrated test authoring and execution solution built for testers, developers, and automation teams. It provides QA organizations with a unified approach for rapidly developing, automating, and maintaining test cases."
               - "Technologies: Java, Eclipse RCP, C++, Tcl, JavaScript"
