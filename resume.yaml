@@ -140,11 +140,11 @@ sections:
         content: "ACM International Collegiate Programming Contest"
         subentries: 
           - template: "subentry"
-            content: "NEERC-2010, Barnual, Russia"
+            content: "NEERC-2010, Barnaul, Russia"
           - template: "subentry"
-            content: "NEERC-2011, Barnual, Russia"
+            content: "NEERC-2011, Barnaul, Russia"
           - template: "subentry"
-            content: "NEERC-2012, Barnual, Russia"
+            content: "NEERC-2012, Barnaul, Russia"
   - template: "section"
     title: "Personal Skills"
     entries:
