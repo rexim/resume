@@ -36,7 +36,7 @@ sections:
     title: "Work Experience"
     entries:
       - template: job-entry
-        title: Apr. 2017–Present
+        title: Apr. 2017–July. 2017
         content: \href{https://2gis.ru/}{2GIS} — Software Engineer — Novosibirsk, Russia
         projects:
           - template: "project"
